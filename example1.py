@@ -15,7 +15,7 @@ def initialize_voxels():
         else:
             scene.set_voxel(vec3(i, 0, j), 1, vec3(0.9, 0.1, 0.1))
 
-            if ti.random() < 0.04:
+            if ti.random() < 0.1:
                 height = int(ti.random() * 20)
 
                 for k in range(1, height):
