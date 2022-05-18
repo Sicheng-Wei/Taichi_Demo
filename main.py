@@ -5,7 +5,8 @@ from taichi.math import *
 scene = Scene(voxel_edges=0, exposure=2)
 scene.set_floor(-1, (0.5, 0.5, 0.4))
 scene.set_background_color((0.5, 0.5, 0.4))
-scene.set_directional_light((1, 1, 1), 0.2, (0.03, 0.03, 0.03))
+scene.set_directional_light((1, 1, 1), 0.2, (0.03, 0.03, 0.03)) # dark mode
+# scene.set_directional_light((1, 1, 1), 0.2, (0.9, 0.9, 0.9)) # light mode
 pale_gold, black = vec3(190/256, 177/256, 139/256), vec3(0.03, 0.03, 0.03)
 dark, pure_gold, nv_green = vec3(0.02, 0.02, 0.02), vec3(193 / 256, 129 / 256, 69 / 256), vec3(119/256, 170/256, 0)
 
