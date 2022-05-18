@@ -24,6 +24,8 @@ I have always been hoping to have my own Nvidia GPU for machine learning and com
 
 Hope in the future I can have one, LOL.
 
+Here below is the Nvidia A100.
+
 <p align="center">
 <img src="imgs/Nvidia A100.png" width="75%"></img>
 </p>
